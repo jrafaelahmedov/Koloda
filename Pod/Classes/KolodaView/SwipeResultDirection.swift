@@ -58,16 +58,16 @@ extension SwipeResultDirection {
 
 private enum VerticalPosition: CGFloat {
     
-    case top = -0.2
+    case top = -1
     case middle = 0
-    case bottom = 0.2
+    case bottom = 1
 }
 
 private enum HorizontalPosition: CGFloat {
     
-    case left = -0.2
+    case left = -1
     case middle = 0
-    case right = 0.2
+    case right = 1
 }
 
 
